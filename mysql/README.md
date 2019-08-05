@@ -24,15 +24,19 @@ Para este script es necesario especificar la ruta al archivo `.csv`, el nombre d
 
 ## Comandos
 
-1. Ingresar al CLI de mysql
+2. Ingresar al CLI de mysql
 
 ```
 $ sudo mysql 
 ```
 
-2. Suponiendo que se creo antes la base de datos `bedudb`
+2. Suponiendo que se creo antes la base de datos `bedudb`. Especificar que trabajaremos en ella
 
-3. Correr archivo `.sql` para creación de base de datos
+```
+mysql> USE bedudb;
+```
+
+3. Correr archivo `.sql` para creación de tabla `trips`
 
 ```
 mysql> source <ruta a archivo sql>
