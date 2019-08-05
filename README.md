@@ -2,5 +2,5 @@
 
 ## Instrucciones para importar desde un archivo .csv a bases de datos
 
-[Para MySQL](./mysql/)
-[Para MongoDB](./mongo/)
+- [Para MySQL](./mysql/)
+- [Para MongoDB](./mongo/)
